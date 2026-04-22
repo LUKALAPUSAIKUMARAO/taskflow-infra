@@ -11,3 +11,5 @@ service:
 
 env:
   MONGO_URI: mongodb://mongo:27017/taskdb
+serviceAccount:
+  create: true
